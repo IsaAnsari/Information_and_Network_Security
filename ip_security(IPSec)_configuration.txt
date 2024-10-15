@@ -1,0 +1,21 @@
+STEP 1: Open Control Panel.	
+
+STEP 2: Click on Network & Security center.
+
+STEP 3: Click on Set up a new connection or network.
+
+STEP 4: Select Connect to a Workplace and click on next.
+
+STEP 5: Click on Use my Internet connection (VPN).
+
+STEP 6: Add Ip Address in Internet Address and click on Create.
+
+Step 7: In Left Panel of Network and Sharing Center window click on Change Adapter settings.
+
+STEP 8: In Network Connection window, You can see your created VPN connection.
+
+STEP 9: Left click on VPN Connection and Click on Properties.
+
+STEP 10: In properties window, Go to Security tab and click on Advanced Settings.
+
+STEP 11: Check the Advanced Properties of VPN Connections.

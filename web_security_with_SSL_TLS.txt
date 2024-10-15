@@ -1,0 +1,5 @@
+STEP 1: Open Control Panel, Click on Network and Internet.
+
+STEP 2: Click on Internet Options.
+
+STEP 3: In Internet Properties window, Check the SSL & TLS options.

@@ -1,0 +1,62 @@
+PART 1: BLOCKING THE HTTP AND HTTPS (PORT 80 AND PORT 443) USING THE FIREWALL
+
+STEP 1: Open “Windows Defender Firewall”.
+
+STEP 2: Click on Advanced Settings from left panel.
+
+STEP 3: Select Inbound Rules And click on New Rule.
+
+STEP 4: In Rule Type window, select port and click on next.
+
+STEP 5: In Protocols and Ports window, select TCP and Specific local ports and enter the port no. 80, 443 then click on next.
+
+STEP 6: In Action window, Select Block the Connection and click on next.
+
+STEP 7: In Profile window, Select every checkbox and click on next.
+
+STEP 8: In Name window, Provide a name for the Rule and click on Finish.
+
+STEP 9: Repeat the Steps from 4 to 8 for Outbound Rules.
+
+OUTPUT
+
+-------------------------------------------------------------------------------------------------
+
+PART 2: BLOCKING THE WEBSITE
+
+STEP 1: Open the browser and (open wikipedia.org) access the website, which is now accessible.
+
+STEP 2: Find the IP Address of the website using the following command in command
+prompt: 
+
+	> nslookup www.wikipedia.org
+
+STEP 3: Open “Windows Defender Firewall”.
+
+STEP 4: Click on Advanced Settings from left panel.
+
+STEP 5: Select Inbound Rules And click on New Rule.
+
+STEP 6: In Rule type window, Select custom and click on next.
+
+STEP 7: In Program window, Select All Programs and click on next.
+
+STEP 8: In Protocol & Ports window, Leave default and click on next.
+
+STEP 9: In Scope window, select These IP Addresses and click on add
+
+STEP 10: In IP Address Box, enter the IP address of Website you want to block connection of.
+
+STEP 11: Add Another IP Address of your device.
+
+STEP 12: Similarly, Add both the IP Addresses in below section and click on next.
+
+STEP 13: In Action window, Select Block the connection and click on next.
+
+STEP 14: In Profile window, leave the default and click on next.
+
+STEP 15: In Name window, Provide a name for the rule and click on Finish.
+
+STEP 16: Similarly, Repeat the steps from 6 to 15 for outbound rules.
+
+OUTPUT
